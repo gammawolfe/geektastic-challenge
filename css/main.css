@@ -1,0 +1,92 @@
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #341f4a;
+    color: white;
+    padding: 10px 5px 10px 5px;
+}
+nav div span{
+    color: #fbe134;   
+}
+nav div p{
+    background-color: #432a5e;  
+}
+nav div button{
+    color: white;
+    background-color: #6e5b83;
+    border: none; 
+}
+nav hr{
+    margin: 0;
+}
+main{
+    background-color: #432a5e;
+    color: white;
+}
+#banner #img2{
+        display: none;
+    }
+#banner button{
+        background-color: #fbe134;
+    }
+#games{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 1% 0 2% 0;
+}
+#games img{
+    border: 2px solid #ff3250;
+}
+#games .media-body span{
+    color: #85fc33;
+}
+#games div button{
+    background-color: #fbe134;
+    margin: 20px;
+}
+footer{
+    background-color: #432a5e;
+    color: white;
+    
+}
+#red-bar{
+    background-color: #ff3250;
+    padding: 0;
+}
+#red-bar .media{
+    margin-left: 35%; 
+}
+#red-bar .media-body p{
+    margin-left: 35%;
+    margin: 0;
+}
+#logo-bar{
+    padding: 10px 0 10px 0;
+}
+#text-bar{
+    padding: 10px 0 10px 0;
+}
+
+@media only screen and (max-width:400px){
+    #banner #img1{
+        display: none;
+    }
+    #banner #img2{
+        display: unset;
+    }
+    #red-bar .media{
+        margin-left: 20%; 
+    }
+    #star{
+        background-color: #341f4a;
+    }
+    #rainbow{
+        background-color: #432a5e;
+    }
+    #cleo{
+        background-color: #341f4a;
+    }
+}
